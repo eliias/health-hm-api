@@ -2,42 +2,26 @@
   "resource": {
     "ALLOW": {
       "ADMIN": "CRUD",
-      "USER": "RU",
-      "GUEST": "C"
+      "USER": "R",
+      "GUEST": "R"
     }
   },
   "attributes": {
     "*": {
       "ALLOW": {
-        "ADMIN": "CRUD"
-      }
-    },
-    "email": {
-      "ALLOW": {
-        "GUEST": "C"
+        "ADMIN": "R"
       }
     },
     "name": {
       "ALLOW": {
-        "GUEST": "C"
+        "USER": "R",
+        "GUEST": "R"
       }
     },
-    "password": {
+    "description": {
       "ALLOW": {
-        "GUEST": "C"
-      },
-      "DENY": {
-        "ADMIN": "R"
-      }
-    },
-    "gender": {
-      "ALLOW": {
-        "GUEST": "C"
-      }
-    },
-    "birthday": {
-      "ALLOW": {
-        "GUEST": "C"
+        "USER": "R",
+        "GUEST": "R"
       }
     },
     "createdAt": {
@@ -52,7 +36,7 @@
     }
   },
   "relationships": {
-    "role": {
+    "parent": {
       "ALLOW": {
         "ADMIN": "R"
       }

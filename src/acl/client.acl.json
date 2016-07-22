@@ -2,8 +2,8 @@
   "resource": {
     "ALLOW": {
       "ADMIN": "CRUD",
-      "USER": "RU",
-      "GUEST": "C"
+      "USER": "R",
+      "GUEST": "R"
     }
   },
   "attributes": {
@@ -12,32 +12,15 @@
         "ADMIN": "CRUD"
       }
     },
-    "email": {
-      "ALLOW": {
-        "GUEST": "C"
-      }
-    },
     "name": {
       "ALLOW": {
-        "GUEST": "C"
+        "GUEST": "R",
+        "USER": "R"
       }
     },
-    "password": {
+    "secret": {
       "ALLOW": {
-        "GUEST": "C"
-      },
-      "DENY": {
         "ADMIN": "R"
-      }
-    },
-    "gender": {
-      "ALLOW": {
-        "GUEST": "C"
-      }
-    },
-    "birthday": {
-      "ALLOW": {
-        "GUEST": "C"
       }
     },
     "createdAt": {
@@ -52,9 +35,17 @@
     }
   },
   "relationships": {
-    "role": {
+    "creator": {
       "ALLOW": {
-        "ADMIN": "R"
+        "ADMIN": "CRU",
+        "USER": "R"
+      }
+    },
+    "projects": {
+      "ALLOW": {
+        "ADMIN": "RU",
+        "USER": "R",
+        "GUEST": "R"
       }
     }
   }
