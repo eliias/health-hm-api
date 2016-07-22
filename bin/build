@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# author: Hannes Moser <hannes@impossiblearts.com>
+#
+
+npm run clean
+npm run lint
+babel --optional runtime -L -e 1 -d ./dist ./src
+npm run copy
+npm run docs

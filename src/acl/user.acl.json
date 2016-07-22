@@ -1,0 +1,61 @@
+{
+  "resource": {
+    "ALLOW": {
+      "ADMIN": "CRUD",
+      "USER": "RU",
+      "GUEST": "CR"
+    }
+  },
+  "attributes": {
+    "*": {
+      "ALLOW": {
+        "ADMIN": "CRUD"
+      }
+    },
+    "email": {
+      "ALLOW": {
+        "GUEST": "C"
+      }
+    },
+    "name": {
+      "ALLOW": {
+        "GUEST": "C"
+      }
+    },
+    "password": {
+      "ALLOW": {
+        "GUEST": "C"
+      },
+      "DENY": {
+        "ADMIN": "R"
+      }
+    },
+    "gender": {
+      "ALLOW": {
+        "GUEST": "C"
+      }
+    },
+    "birthday": {
+      "ALLOW": {
+        "GUEST": "C"
+      }
+    },
+    "createdAt": {
+      "ALLOW": {
+        "ADMIN": "R"
+      }
+    },
+    "updatedAt": {
+      "ALLOW": {
+        "ADMIN": "R"
+      }
+    }
+  },
+  "relationships": {
+    "role": {
+      "ALLOW": {
+        "ADMIN": "R"
+      }
+    }
+  }
+}

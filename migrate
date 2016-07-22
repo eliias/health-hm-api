@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+./node_modules/.bin/sequelize \
+ --config ./config/migrate.js \
+ --migrations-path ./db/migrations \
+ --seeders-path ./db/seeders \
+ --models-path ./db/models \
+ "$@"

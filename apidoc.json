@@ -1,0 +1,16 @@
+{
+  "name": "Health API",
+  "version": "1.0.0",
+  "description": "The health API provides tracking and persistence services.",
+  "title": "Health API",
+  "url": "https://api.health.hannesmoser.at/v1",
+  "sampleUrl": "https://api.health.hannesmoser.at/v1",
+  "header": {
+    "title": "Introduction",
+    "filename": "docs/apidoc-src/header.md"
+  },
+  "footer": {
+    "title": "About",
+    "filename": "docs/apidoc-src/footer.md"
+  }
+}
