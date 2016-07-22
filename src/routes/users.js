@@ -56,11 +56,6 @@ export default function(router) {
         roleModel: Role
       })
       .rest({model: User})
-      .transform((req, res) => {
-        if (res.body) {
-          res.body.meta = res.meta
-        }
-      })
       .acl.res({adapter, resource: 'user'})
       .json()
   )
