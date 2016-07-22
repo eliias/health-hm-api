@@ -19,7 +19,7 @@ const User = db.define('User', {
     unique: true,
     allowNull: true
   },
-  name: {
+  username: {
     type: Sequelize.STRING,
     unique: true,
     allowNull: true
