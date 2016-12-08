@@ -50,18 +50,18 @@
     "sequelize": "^3.15.0",
     "sequelize-cli": "^2.3.1",
     "squel": "^5.0.4",
-    "uuid": "^2.0.1"
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
-    "apidoc": "^0.15.0",
+    "apidoc": "^0.16.1",
     "babel-cli": "^6.2.0",
-    "babel-eslint": "^4.1.6",
+    "babel-eslint": "^7.1.1",
     "babel-preset-es2015-node5": "^1.1.0",
-    "eslint": "^1.10.1",
-    "mocha": "^2.3.4",
+    "eslint": "^3.11.1",
+    "mocha": "^3.2.0",
     "nodemon": "^1.8.1",
-    "should": "^7.1.1",
+    "should": "^11.1.1",
     "sqlite3": "^3.1.1",
-    "supertest": "^1.1.0"
+    "supertest": "^2.0.1"
   }
 }
