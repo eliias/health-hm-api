@@ -33,7 +33,7 @@
     "config": "^1.17.1",
     "continuation-local-storage": "^3.1.6",
     "cors": "^2.7.1",
-    "express": "^4.14.0",
+    "express": "^4.14.1",
     "lodash": "^4.6.1",
     "morgan": "^1.6.1",
     "netiam": "^7.1.1",
