@@ -32,7 +32,7 @@
     "compression": "^1.6.0",
     "config": "^1.17.1",
     "continuation-local-storage": "^3.1.6",
-    "cors": "^2.7.1",
+    "cors": "^2.8.2",
     "express": "^4.14.0",
     "lodash": "^4.6.1",
     "morgan": "^1.6.1",
