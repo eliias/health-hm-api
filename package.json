@@ -43,7 +43,7 @@
     "netiam-contrib-oauth": "^1.2.0",
     "netiam-contrib-rest": "^1.12.5",
     "netiam-contrib-transform": "^1.0.1",
-    "passport": "^0.3.2",
+    "passport": "^0.4.0",
     "pg": "^7.0.0",
     "pg-hstore": "^2.3.2",
     "request": "^2.69.0",
