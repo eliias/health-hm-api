@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "bcrypt-as-promised": "^1.1.0",
-    "body-parser": "^1.14.1",
+    "body-parser": "^1.18.2",
     "compression": "^1.6.0",
     "config": "^1.17.1",
     "continuation-local-storage": "^3.1.6",
