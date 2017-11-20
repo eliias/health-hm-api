@@ -31,7 +31,7 @@
     "body-parser": "^1.14.1",
     "compression": "^1.6.0",
     "config": "^1.17.1",
-    "continuation-local-storage": "^3.1.6",
+    "continuation-local-storage": "^3.2.1",
     "cors": "^2.7.1",
     "express": "^4.14.0",
     "lodash": "^4.6.1",
